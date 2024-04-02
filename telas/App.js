@@ -34,13 +34,14 @@ class App extends Component{
                 {/* passando propriedades, a altura e a largura */}
                 {/* <minhaImagem largura/> */}
                 <minhaImagem largura={400} altura={400} nome="imagem 1"/>
+                <minhaImagem largura={400} altura={400} nome="imagem 2"/>
             </View>
         );
     }
 }
 export default App;
 
-// caso queira criear um componente para a img
+// caso queira criar um componente para a img
 // nao precisa colocar a view pq é um unico componente
 
 class minhaImagem extends Component{
@@ -55,3 +56,4 @@ class minhaImagem extends Component{
         );
     }
 }
+
